@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>micronaut_test_music</groupId>
-  <artifactId>micronaut_test_music</artifactId>
+  <groupId>micronaut_learn</groupId>
+  <artifactId>micronaut_learn</artifactId>
   <version>0.1</version>
   <packaging>${packaging}</packaging>
 
@@ -18,9 +18,9 @@
     <release.version>17</release.version>
     <micronaut.version>4.10.7</micronaut.version>
     <micronaut.aot.enabled>false</micronaut.aot.enabled>
-    <micronaut.aot.packageName>micronaut_test_music.aot.generated</micronaut.aot.packageName>
+    <micronaut.aot.packageName>micronaut_learn.aot.generated</micronaut.aot.packageName>
     <micronaut.runtime>netty</micronaut.runtime>
-    <exec.mainClass>micronaut_test_music.Application</exec.mainClass>
+    <exec.mainClass>micronaut_learn.Application</exec.mainClass>
   </properties>
 
   <repositories>
@@ -111,8 +111,8 @@
             </path>
           </annotationProcessorPaths>
           <compilerArgs>
-            <arg>-Amicronaut.processing.group=micronaut_test_music</arg>
-            <arg>-Amicronaut.processing.module=micronaut_test_music</arg>
+            <arg>-Amicronaut.processing.group=micronaut_learn</arg>
+            <arg>-Amicronaut.processing.module=micronaut_learn</arg>
           </compilerArgs>
         </configuration>
       </plugin>

@@ -1,4 +1,4 @@
-package micronaut_test_music.bean;
+package micronaut_learn.bean;
 
 import jakarta.inject.Singleton;
 

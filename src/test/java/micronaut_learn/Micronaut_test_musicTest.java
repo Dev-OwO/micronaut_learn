@@ -1,4 +1,4 @@
-package micronaut_test_music;
+package micronaut_learn;
 
 import io.micronaut.runtime.EmbeddedApplication;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Assertions;
 import jakarta.inject.Inject;
 
 @MicronautTest
-class Micronaut_test_musicTest {
+class Micronaut_learnTest {
 
     @Inject
     EmbeddedApplication<?> application;

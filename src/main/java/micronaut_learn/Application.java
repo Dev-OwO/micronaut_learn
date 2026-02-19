@@ -1,4 +1,4 @@
-package micronaut_test_music;
+package micronaut_learn;
 
 import io.micronaut.runtime.Micronaut;
 

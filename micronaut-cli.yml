@@ -1,5 +1,5 @@
 applicationType: default
-defaultPackage: micronaut_test_music
+defaultPackage: micronaut_learn
 testFramework: junit
 sourceLanguage: java
 buildTool: maven

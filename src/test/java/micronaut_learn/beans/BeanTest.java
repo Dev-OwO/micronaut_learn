@@ -1,9 +1,9 @@
-package micronaut_test_music.beans;
+package micronaut_learn.beans;
 
 import org.junit.jupiter.api.Test;
 
 import io.micronaut.context.ApplicationContext;
-import micronaut_test_music.bean.Vehicle;
+import micronaut_learn.bean.Vehicle;
 
 public class BeanTest {
 
